@@ -21,4 +21,7 @@ class Settings(BaseSettings):
     )
 
 
+import os
+
+print("ENV VARS:", os.environ.get("DATABASE_URL"), os.environ.get("SECRET_KEY"))
 settings = Settings()
