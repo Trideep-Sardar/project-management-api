@@ -1,0 +1,21 @@
+# environment
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# logs
+app.log
+*.log
+
+# alembic
+alembic/versions/__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# docker
+.dockerignore
